@@ -221,7 +221,7 @@ public class NumberDistributionApp
     	
     	try
 		{
-			new NumberDistributionApp(propertiesFileString);
+    		new NumberDistributionApp(propertiesFileString).start();
 		} 
     	catch (Exception e)
 		{
